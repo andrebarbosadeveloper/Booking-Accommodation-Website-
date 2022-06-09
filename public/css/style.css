@@ -1,0 +1,303 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+  
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+  margin-bottom: 0rem;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+/* Menu Logins */
+
+.drop-menu {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-style {
+  background-color: whitesmoke;
+  padding: 2vh;
+  margin: 5vh;
+  align-items: center;
+}
+
+.user_name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.comments-list .media {
+  border-bottom: 1px dotted #ccc;
+}
+
+
+/* Caixa comentarios */
+
+.pb-cmnt-container {
+  font-family: Lato;
+  margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+  resize: none;
+  padding: 20px;
+  height: 130px;
+  width: 100%;
+  border: 1px solid #F2F2F2;
+}
+
+
+/* Comentarios */
+
+.col-lg-6 {
+  margin-top: 10px;
+}
+
+.ri-info {
+  margin-top: 100px;
+}
+
+
+/* Caixa reservas */
+
+.form-label {
+  color: black;
+}
+
+.col-reservas {
+  background-color: white;
+  padding: 2vh;
+}
+
+
+/* Caixa das reservas de cada casa*/
+
+.card {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.card-size{
+  margin-top: 75%;
+  
+  border-bottom-width: 0px;
+
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+ 
+}
+
+.img-fluid {
+  margin: 0;
+  width: 75%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.texto-filtro {
+  padding-right: 0;
+  padding-left: 40px;
+}
+
+.imagem {
+  padding-right: 0;
+}
+
+
+/* Fotos Pagina de Filtros */
+
+.row-casas {
+  margin-bottom: 5vh;
+}
+
+
+/* Botao remover casas na pagina admin */
+
+.btn-remove {
+  background-color: red;
+  color: seashell;
+}
+
+.btn-add {
+  background-color: green;
+  color: seashell;
+}
+
+.form-btn {
+  padding: 5vh;
+}
+
+.comments-card {
+  height: 25%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 50px;
+}
+
+.btn-card {
+  height: 25%;
+  display: contents;
+  justify-content: left;
+  align-items: center;
+  margin: 50px;
+}
+
+
+/* Imagens */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    left: -120px;
+  }
+}
+
+/* Icons casas*/
+
+.centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  
+}
+
+.i{
+  margin-right: 30px;
+}
